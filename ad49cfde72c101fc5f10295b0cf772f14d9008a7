@@ -9,3 +9,11 @@ UUID: 0a2cb179_112f6e92
 Bytes: 156
 At a minimum lets do the "full" check and output a log entry if its incorrect. We may also consider creating an event informing companies when sims are bad.
 
+427
+Fri Jun 28 16:40:15 2013 +0000
+Author: Takeshi Aimi <1017042@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 0a2cb179_112f6e92
+UUID: c7fa942f_5e1835f4
+Bytes: 222
+Sure, that should be reasonable. I'll incorporate the log in the next patch set. But, sorry, i need you to wait for two days since it's already Saturday morning in Tokyo and I don't have development environment in my home.
+
