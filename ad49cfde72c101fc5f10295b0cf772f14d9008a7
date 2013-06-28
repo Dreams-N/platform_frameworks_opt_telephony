@@ -1,0 +1,11 @@
+Revision: ad49cfde72c101fc5f10295b0cf772f14d9008a7
+Patch-set: 1
+File: src/java/com/android/internal/telephony/uicc/SIMRecords.java
+
+427
+Fri Jun 28 16:30:55 2013 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0a2cb179_112f6e92
+Bytes: 156
+At a minimum lets do the "full" check and output a log entry if its incorrect. We may also consider creating an event informing companies when sims are bad.
+
