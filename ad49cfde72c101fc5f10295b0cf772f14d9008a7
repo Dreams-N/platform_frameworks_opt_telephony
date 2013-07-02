@@ -17,3 +17,11 @@ UUID: c7fa942f_5e1835f4
 Bytes: 222
 Sure, that should be reasonable. I'll incorporate the log in the next patch set. But, sorry, i need you to wait for two days since it's already Saturday morning in Tokyo and I don't have development environment in my home.
 
+427
+Tue Jul 02 21:15:30 2013 +0000
+Author: Takeshi Aimi <1017042@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: c7fa942f_5e1835f4
+UUID: 67480879_23f20a22
+Bytes: 121
+Updated patch set to do "full" check and print warning log if MSP does not comply with ETSI spec. Please see patch set 3.
+
