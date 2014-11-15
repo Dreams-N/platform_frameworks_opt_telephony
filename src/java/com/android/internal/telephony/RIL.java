@@ -322,7 +322,7 @@ public class RIL extends BaseCommands implements CommandsInterface {
     static final int RESPONSE_SOLICITED_ACK_EXP = 3;
     static final int RESPONSE_UNSOLICITED_ACK_EXP = 4;
 
-    static final String[] SOCKET_NAME_RIL = {"rild", "rild2", "rild3"};
+    static final String[] SOCKET_NAME_RIL = {"rild", "rild1", "rild2"};
 
     static final int SOCKET_OPEN_RETRY_MILLIS = 4 * 1000;
 
