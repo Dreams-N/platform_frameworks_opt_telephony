@@ -2017,4 +2017,16 @@ public interface CommandsInterface {
      * @param result Callback message contains the modem activity information
      */
     public void getModemActivityInfo(Message result);
+
+    /**
+     * @hide
+     * samsung stk service implementation - set up registrant for sending
+     * sms send result from modem(RIL) to catService
+     */
+    void setOnCatSendSmsResult(Handler h, int what, Object obj);
+
+    /**
+     * @hide
+     */
+    void unSetOnCatSendSmsResult(Handler h);
 }
